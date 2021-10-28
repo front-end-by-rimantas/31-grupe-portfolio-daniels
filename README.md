@@ -7,11 +7,11 @@
 
 _31 group website project_
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is for educational porpuses only . Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/31-grupe-portfolio/
+Site published at:https://github.com/front-end-by-rimantas/31-grupe-portfolio-daniels
 
-Design: https://new-per.netlify.app/demo-3.html
+Design: http://www.innovationplans.com/idesign/daniels/particles.html
 
 ## Project features
 
@@ -27,4 +27,8 @@ Design: https://new-per.netlify.app/demo-3.html
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Rimantas: [Github](https://github.com/belauzas),
+Imantas: [Github](https://github.com/ImantasCe),
+Edvinas: [Github](https://github.com/Mokslams),
+Simona: [Github](https://github.com/simonachess),
+Asta: [Github](https://github.com/astakaune),
