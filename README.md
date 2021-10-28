@@ -9,7 +9,7 @@ _31 group website project_
 
 This project is for educational porpuses only . Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/31-grupe-portfolio/
+Site published at:https://github.com/front-end-by-rimantas/31-grupe-portfolio-daniels
 
 Design: http://www.innovationplans.com/idesign/daniels/particles.html
 
