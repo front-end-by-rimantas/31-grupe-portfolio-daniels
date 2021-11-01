@@ -15,18 +15,9 @@ body {
 }
 
 .section-title h3 {
-    position: relative;
-    display: inline-block;
     font-family: PoppinsBold;
     font-size: 36px;
     color: rgb(52, 52, 52);
-}
-
-.section-title h3:after {
-    content: '';
-    position: absolute;
     border-bottom: 4px dotted rgb(216, 216, 216);
-    width: 100%;
-    bottom: -10px;
-    left: 0;
+    width: fit-content;
 }
