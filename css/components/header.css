@@ -1,38 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.home-header {
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-image: url('http://www.innovationplans.com/idesign/daniels/img/bg.jpg');
+    background-position: 0px 0px;
 }
 
-html {
-    font-size: 63%;
-    font-family: 'Poppins', sans-serif;
+.home-header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .65;
 }
 
-li {
-    list-style: none;
+.home-text {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    z-index: 99;
 }
 
-a {
-    text-decoration: none;
-}
-
-.header {
-    border-bottom: 1px solid #ffff;
-}
+/* position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: #000;
+opacity: .65;
+z-index: 2;
+ */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    border-bottom: 1px solid black;
+    z-index: 99;
+    width: 100%;
 }
+
+
 
 .hamburger {
     display: none;
+    z-index: 99;
 }
 
 .bar {
@@ -42,7 +68,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: white;
 }
 
 .nav-menu {
@@ -56,34 +82,55 @@ a {
 }
 
 .nav-link {
+   
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: white;
+    z-index: 1;
 }
 
 .nav-link:hover {
-    color: #a72d2d;
+    color: white;
 }
 
 .nav-logo {
-    font-size: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+   font-size: 3.5rem;
     font-weight: 900;
-    color: #a72d2d;
+    color: white;
     padding: 20px;
+}
+
+.nav-logo:hover {
+    text-decoration: none;
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
-        position:fixed;
+        position: fixed;
         left: -100%;
         top: 11rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: white;
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .nav-link {
+        
+        color: black;
+        
     }
     .nav-menu.active {
         left: 0;
@@ -94,6 +141,9 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
+        z-index: 99;
+        color: white;
+        /* position: active; */
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;

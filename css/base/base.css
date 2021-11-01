@@ -1,1 +1,19 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 63%;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
