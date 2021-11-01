@@ -1,21 +1,11 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
-
-@font-face {
-    font-family: PoppinsRegular;
-    src: url('../../fonts/Poppins-Regular.ttf');
-}
-
-@font-face {
-    font-family: PoppinsBold;
-    src: url('../../fonts/Poppins-ExtraBold.ttf');
-}
-
 body {
-    font-family: PoppinsRegular;
+    font-family: poppins, sans-serif;
 }
 
 .section-title h3 {
-    font-family: PoppinsBold;
+    font-family: poppins;
+    font-weight: 800;
     font-size: 36px;
     color: rgb(52, 52, 52);
     border-bottom: 4px dotted rgb(216, 216, 216);

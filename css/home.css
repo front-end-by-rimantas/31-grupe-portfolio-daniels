@@ -1,46 +1,57 @@
 /* base */
+
 @import './base/base.css';
 @import './base/layout.css';
 @import './base/reset.css';
 @import './base/variables.css';
-
+@import './base/font.css';
 /* 3rd-party */
+
 /* @import './3rd-party/font-awesome.min.css'; */
 
 /* components */
+
 @import './components/button.css';
 @import './components/footer.css';
 @import './components/header.css';
-
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* header start */
+
 /* header end */
 
 /* hero start */
+
 /* hero end */
 
 /* about me + skills start */
+
 /* about me + skills end */
 
 /* services start */
+
 /* services end */
 
 /* portfolio start */
+
 /* portfolio end */
 
 /* testimonials start */
+
 /* testimonials end */
 
 /* achievements with counters start */
+
 /* achievements with counters end */
 
 /* blog start */
+
 /* blog end */
 
 /* contact us start */
+
 /* contact us end */
 
 /* footer start */
-/* footer end */
 
+/* footer end */
