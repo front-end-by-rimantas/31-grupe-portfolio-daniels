@@ -1,1 +1,6 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+
+p {
+    font-size: 1.70rem;
+    color: #748182;
+}
