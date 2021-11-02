@@ -51,3 +51,23 @@ li {
 a {
     text-decoration: none;
 
+
+.icons {
+    border: none;
+    width: max-content;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #f4f4f4;
+    margin: 30px auto;
+}
+
+.icons:hover {
+    color: #f4f4f4;
+    background-color: #1c1c1c;
+    transition: all ease-in-out 0.3s;
+}
+
