@@ -1,10 +1,8 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    ;
 }
 
 body {
@@ -35,6 +33,14 @@ p {
     text-align: center;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .icons {
     border: none;
     width: max-content;
@@ -53,3 +59,5 @@ p {
     background-color: #1c1c1c;
     transition: all ease-in-out 0.3s;
 }
+
+

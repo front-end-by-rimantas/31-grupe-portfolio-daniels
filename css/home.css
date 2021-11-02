@@ -16,6 +16,8 @@
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* header start */
+@import './components/header.css';
+@import '../js/header.js';
 
 /* header end */
 
