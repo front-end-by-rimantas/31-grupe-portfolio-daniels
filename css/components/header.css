@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.hello {
+font-size: 48px;
+font-weight: 800;
+}
 
 
 .social-icon {
     display: flex;
     flex-direction: row;
 }
-
 
 .icon-item {
     padding-top: 3.5px;
@@ -56,7 +59,7 @@
     align-items: center;
     position: relative;
     color: white;
-    z-index: 1;   
+    z-index: 1;
 }
 
 .navbar {
@@ -94,7 +97,6 @@
 }
 
 .nav-link {
-   
     font-size: 1.6rem;
     font-weight: 400;
     color: white;
@@ -108,10 +110,10 @@
 .nav-logo {
     display: flex;
     justify-content: center;
-   font-size: 2.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
     color: white;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
 
 .nav-logo:hover {
@@ -140,10 +142,8 @@
         top: 0;
         left: 0;
     }
-    .nav-link{
-        
+    .nav-link {
         color: black;
-        
     }
     .nav-menu.active {
         left: 0;
