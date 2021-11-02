@@ -58,6 +58,22 @@
 
 /* achievements with counters start */
 
+.achievements-container {
+    padding: 70px 0;
+}
+
+.achievements-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.achievements-container p {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
 /* achievements with counters end */
 
 /* blog start */
