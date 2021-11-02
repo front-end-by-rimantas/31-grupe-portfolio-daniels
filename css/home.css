@@ -12,7 +12,8 @@
 
 @import './components/button.css';
 @import './components/footer.css';
-@import './components/header.css';
+
+
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* header start */
@@ -67,6 +68,11 @@
 /* blog end */
 
 /* contact us start */
+
+
+.contact-container {
+    padding: 50px 0;
+}
 
 /* contact us end */
 
