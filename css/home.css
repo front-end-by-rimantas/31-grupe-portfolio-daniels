@@ -12,12 +12,10 @@
 
 @import './components/button.css';
 @import './components/footer.css';
-
-
 /* header start */
+
 @import './components/header.css';
 @import '../js/header.js';
-
 /* header end */
 
 /* hero start */
@@ -31,7 +29,7 @@
 /* services start */
 
 .services-container {
-    background-color: #f4f4f4;
+    background-color: #fff;
     padding: 60px 0;
 }
 
@@ -49,7 +47,36 @@
 
 /* services end */
 
+
+
 /* portfolio start */
+
+.portfolio-container {
+    background-color: #fff;
+    padding: 70px 0;
+}
+
+#portfolio-filtering {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-filtering span {
+       font-size: 16px;
+       margin: 0 15px;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-card {
+    padding: 20px;
+}
+
 
 /* portfolio end */
 
@@ -58,7 +85,6 @@
 /* testimonials end */
 
 /* achievements with counters start */
-
 
 .achievements-container {
     padding: 70px 0;
@@ -76,7 +102,6 @@
     padding-top: 10px;
 }
 
-
 /* achievements with counters end */
 
 /* blog start */
@@ -85,9 +110,7 @@
 
 /* contact us start */
 
-
 .contact-container {
-
     padding: 50px 0;
 }
 
