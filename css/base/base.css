@@ -1,4 +1,4 @@
-/* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto *
+/* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: poppins;
+    font-family: font-family: poppins, sans-serif;
     font-size: 13px;
 }
 
@@ -19,6 +19,15 @@ h1 {
 h2 {
     font-size: 6rem;
     font-weight: 800;
+}
+
+.section-title h3 {
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 36px;
+    color: rgb(52, 52, 52);
+    border-bottom: 4px dotted rgb(216, 216, 216);
+    width: fit-content;
 }
 
 h4 {
@@ -34,9 +43,11 @@ p {
     text-align: center;
 }
 
+
 li {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+
