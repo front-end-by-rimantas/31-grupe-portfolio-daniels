@@ -1,14 +1,15 @@
 button {
     padding: 1rem 3rem;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #1c1c1c;
     letter-spacing: 0.1rem;
-    background-color: #fff;
+    background-color: #1c1c1c;
+    color: #fff;
 }
 
 button:hover {
     border: 1px solid #1c1c1c;
-    background-color: #1c1c1c;
-    color: #fff;
+    background-color: #fff;
     transition: all ease-in-out 0.5s;
+    color: #1c1c1c;
 }

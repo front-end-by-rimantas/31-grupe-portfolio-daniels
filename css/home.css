@@ -82,8 +82,46 @@
 
 /* contact us start */
 
-.contact-container {
+#contact {
     padding: 50px 0;
+}
+
+#contact form {
+    padding: 50px 0;
+}
+
+#contact form .input-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#contact form .input-row input {
+    width: 100%;
+}
+
+#contact form .input-row input:first-child {
+    margin-right: 15px;
+}
+
+#contact form .input-row input:last-child {
+    margin-left: 15px;
+}
+
+#contact form textarea {
+    resize: vertical;
+    margin-bottom: 30px;
+}
+
+#contact form input:not([type='submit']), #contact form textarea {
+    background: #f4f4f4;
+    padding: 12px;
+    color: #ccc;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
 }
 
 /* contact us end */
