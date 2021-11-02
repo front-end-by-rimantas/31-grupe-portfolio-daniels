@@ -12,10 +12,11 @@
 
 @import './components/button.css';
 @import './components/footer.css';
-@import './components/header.css';
-/* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
+
 
 /* header start */
+@import './components/header.css';
+@import '../js/header.js';
 
 /* header end */
 
@@ -58,6 +59,7 @@
 
 /* achievements with counters start */
 
+
 .achievements-container {
     padding: 70px 0;
 }
@@ -74,6 +76,7 @@
     padding-top: 10px;
 }
 
+
 /* achievements with counters end */
 
 /* blog start */
@@ -82,7 +85,9 @@
 
 /* contact us start */
 
-#contact {
+
+.contact-container {
+
     padding: 50px 0;
 }
 
