@@ -1,4 +1,5 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,56 +7,64 @@
 }
 
 body {
-    font-family: font-family: poppins, sans-serif;
+    font-family: poppins, sans-serif;
     font-size: 13px;
 }
 
 h1 {
     font-weight: 200;
-    font-size: 7rem;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 6rem;
-    font-weight: 800;
-}
-
-.section-title h3 {
-    font-family: poppins;
     font-weight: 800;
     font-size: 36px;
     color: rgb(52, 52, 52);
-    border-bottom: 4px dotted rgb(216, 216, 216);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.section-title h2 {
+    font-weight: 800;
+    font-size: 36px;
+    color: rgb(52, 52, 52);
     width: fit-content;
+    position: relative;
+    margin: 30px auto;
+}
+
+.section-title h2:after {
+    content: '';
+    background-image: url('../../img/dots.png');
+    width: 100%;
+    height: 30px;
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+h3 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 h4 {
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
-    font-size: 2rem;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-h5 {
-    font-weight: 600;
-    text-align: center;
-    font-size: 1.75rem;
-    margin-bottom: 10px;
-}
-
-h5 {
-    font-weight: 600;
-    text-align: center;
-    font-size: 1.75rem;
-    margin-bottom: 10px;
-}
 
 p {
-    font-size: 1.70rem;
+    font-size: 14px;
     color: #748182;
     text-align: center;
 }
-
 
 li {
     list-style: none;
@@ -83,4 +92,3 @@ a {
     background-color: #1c1c1c;
     transition: all ease-in-out 0.3s;
 }
-
