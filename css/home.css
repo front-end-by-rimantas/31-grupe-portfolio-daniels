@@ -4,6 +4,7 @@
 @import './base/layout.css';
 @import './base/reset.css';
 @import './base/variables.css';
+@import './base/font.css';
 /* 3rd-party */
 
 /* @import './3rd-party/font-awesome.min.css'; */
@@ -12,12 +13,10 @@
 
 @import './components/button.css';
 @import './components/footer.css';
-
-
 /* header start */
+
 @import './components/header.css';
 @import '../js/header.js';
-
 /* header end */
 
 /* hero start */
@@ -59,7 +58,6 @@
 
 /* achievements with counters start */
 
-
 .achievements-container {
     padding: 70px 0;
 }
@@ -76,7 +74,6 @@
     padding-top: 10px;
 }
 
-
 /* achievements with counters end */
 
 /* blog start */
@@ -85,9 +82,7 @@
 
 /* contact us start */
 
-
 .contact-container {
-
     padding: 50px 0;
 }
 
