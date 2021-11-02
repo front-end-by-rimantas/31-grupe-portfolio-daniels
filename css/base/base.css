@@ -1,5 +1,4 @@
-/* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
-
+/* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto *
 * {
     box-sizing: border-box;
     margin: 0;
@@ -34,3 +33,10 @@ p {
     color: #748182;
     text-align: center;
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
