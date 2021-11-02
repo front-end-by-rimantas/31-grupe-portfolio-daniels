@@ -1,1 +1,36 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+body {
+    font-family: poppins;
+    font-size: 13px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.70rem;
+    color: #748182;
+    text-align: center;
+}
