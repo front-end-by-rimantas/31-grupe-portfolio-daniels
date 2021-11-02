@@ -13,15 +13,10 @@ body {
 
 h1 {
     font-weight: 200;
-    font-size: 7rem;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 6rem;
-    font-weight: 800;
-}
-
-h3 {
     font-weight: 800;
     font-size: 36px;
     color: rgb(52, 52, 52);
@@ -29,17 +24,16 @@ h3 {
     margin: 10px 0;
 }
 
-.section-title h3 {
+.section-title h2 {
     font-weight: 800;
     font-size: 36px;
     color: rgb(52, 52, 52);
-    /* border-bottom: 4px dotted rgb(216, 216, 216); */
     width: fit-content;
     position: relative;
     margin: 30px auto;
 }
 
-.section-title h3:after {
+.section-title h2:after {
     content: '';
     background-image: url('../../img/dots.png');
     width: 100%;
@@ -51,29 +45,23 @@ h3 {
     z-index: -1;
 }
 
-h4 {
+h3 {
     font-weight: 800;
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-h5 {
+h4 {
     font-weight: 600;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-h5 {
-    font-weight: 600;
-    text-align: center;
-    font-size: 1.75rem;
-    margin-bottom: 10px;
-}
 
 p {
-    font-size: 1.70rem;
+    font-size: 14px;
     color: #748182;
     text-align: center;
 }
