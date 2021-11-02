@@ -10,11 +10,13 @@
 /* components */
 @import './components/button.css';
 @import './components/footer.css';
-@import './components/header.css';
+
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* header start */
+@import './components/header.css';
+@import '../js/header.js';
 /* header end */
 
 /* hero start */
