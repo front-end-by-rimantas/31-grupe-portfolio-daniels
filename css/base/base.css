@@ -1,4 +1,5 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-    font-family: font-family: poppins, sans-serif;
+    font-family: poppins, sans-serif;
     font-size: 13px;
 }
 
@@ -20,13 +21,34 @@ h2 {
     font-weight: 800;
 }
 
-.section-title h3 {
-    font-family: poppins;
+h3 {
     font-weight: 800;
     font-size: 36px;
     color: rgb(52, 52, 52);
-    border-bottom: 4px dotted rgb(216, 216, 216);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.section-title h3 {
+    font-weight: 800;
+    font-size: 36px;
+    color: rgb(52, 52, 52);
+    /* border-bottom: 4px dotted rgb(216, 216, 216); */
     width: fit-content;
+    position: relative;
+    margin: 30px auto;
+}
+
+.section-title h3:after {
+    content: '';
+    background-image: url('../../img/dots.png');
+    width: 100%;
+    height: 30px;
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
 }
 
 h4 {
@@ -56,7 +78,6 @@ p {
     text-align: center;
 }
 
-
 li {
     list-style: none;
 }
@@ -83,4 +104,3 @@ a {
     background-color: #1c1c1c;
     transition: all ease-in-out 0.3s;
 }
-
