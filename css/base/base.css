@@ -29,6 +29,13 @@ h4 {
     margin-bottom: 30px;
 }
 
+h5 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+
 p {
     font-size: 1.70rem;
     color: #748182;
