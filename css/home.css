@@ -45,7 +45,6 @@
     border-radius: 10px;
     box-shadow: 0px 10px 30px -8px rgb(0 0 0/ 10%);
 }
-
 /* services end */
 
 
@@ -55,25 +54,21 @@
     background-color: #fff;
     padding: 70px 0;
 }
-
 #portfolio-filtering {
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 #portfolio-filtering span {
        font-size: 16px;
        font-weight: 700;
        margin: 0 15px;
 }
-
 #portfolio img {
     width: 100%;
     height: auto;
 }
-
 .portfolio-card {
     padding: 20px;
 }
