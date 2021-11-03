@@ -30,20 +30,20 @@
 /* services start */
 
 .services-container {
-    background-color: #f4f4f4;
-    padding: 60px 0;
+	background-color: #f4f4f4;
+	padding: 60px 0;
 }
 
-.services-card {
-    border-radius: 10px;
-    padding: 20px;
+#services .services-card {
+	border-radius: 10px;
+	padding: 20px;
 }
 
-.service-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 30px -8px rgb(0 0 0/ 10%);
+#services .service-item {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px -8px rgb(0 0 0/ 10%);
 }
 
 /* services end */
@@ -59,19 +59,31 @@
 /* achievements with counters start */
 
 .achievements-container {
-    padding: 70px 0;
+	padding: 70px 0;
 }
 
-.achievements-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
+#achievements .count-number {
+	font-weight: 900;
+	font-size: 28px;
+	margin-bottom: 10px auto;
 }
 
-.achievements-container p {
-    font-weight: 600;
-    padding-top: 10px;
+#achievements .achievments-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#achievements .achievements-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+}
+
+#achievements .achievements-container p {
+	font-weight: 600;
+	padding-top: 10px;
 }
 
 /* achievements with counters end */
@@ -83,45 +95,58 @@
 /* contact us start */
 
 .contact-container {
-    padding: 50px 0;
+	padding: 50px 0;
+}
+
+#contact .contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact .contact-item-title {
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
 
 #contact form {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 #contact form .input-row {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-    margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 #contact form .input-row input {
-    width: 100%;
+	width: 100%;
 }
 
 #contact form .input-row input:first-child {
-    margin-right: 15px;
+	margin-right: 15px;
 }
 
 #contact form .input-row input:last-child {
-    margin-left: 15px;
+	margin-left: 15px;
 }
 
 #contact form textarea {
-    resize: vertical;
-    margin-bottom: 30px;
+	resize: vertical;
+	margin-bottom: 30px;
 }
 
-#contact form input:not([type='submit']), #contact form textarea {
-    background: #f4f4f4;
-    padding: 12px;
-    color: #ccc;
-    border: 0;
-    border-radius: 5px;
-    outline: none;
-    width: 100%;
+#contact form input:not([type='submit']),
+#contact form textarea {
+	background: #f4f4f4;
+	padding: 12px;
+	color: #ccc;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+	width: 100%;
 }
 
 /* contact us end */
