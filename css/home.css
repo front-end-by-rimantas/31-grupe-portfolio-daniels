@@ -77,7 +77,78 @@
 /* achievements with counters end */
 
 /* blog start */
+.section-title {
+    margin-top: 40px;
+}
 
+a:hover {
+    text-decoration: none;
+    color:#939393 
+}
+
+.under-line {
+    text-decoration: underline;
+    color:#939393 
+}
+
+.under-line:hover {
+    text-decoration: underline;
+    color:#939393 
+}
+
+.trend-text {
+    color:#939393 ;
+}
+
+.blog-text:hover {
+    text-decoration: none;
+    color: black; 
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    color: black;  
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+ .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .blog-container {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  .card {
+    margin: 10px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;  
+    width: 35%;
+    border: black;
+  }
+  
+  
 /* blog end */
 
 /* contact us start */
