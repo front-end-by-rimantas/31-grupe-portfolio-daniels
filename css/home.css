@@ -50,9 +50,12 @@
 
 
 /* portfolio start */
-.portfolio-container {
+#portfolio {
     background-color: #fff;
-    padding: 70px 0;
+    padding: 70px 0 80px;
+}
+#portfolio h2 {
+    margin-bottom: 80px;
 }
 #portfolio-filtering {
     margin-bottom: 30px;
@@ -60,7 +63,7 @@
     justify-content: center;
     align-items: center;
 }
-#portfolio-filtering span {
+#portfolio-filtering div {
        font-size: 16px;
        font-weight: 700;
        margin: 0 15px;
@@ -69,7 +72,7 @@
     width: 100%;
     height: auto;
 }
-.portfolio-card {
+#portfolio .portfolio-card {
     padding: 20px;
 }
 /* portfolio end */
