@@ -148,9 +148,19 @@
 	outline: none;
 	width: 100%;
 }
-
 /* contact us end */
 
 /* footer start */
-
+#footer {
+	height: 80px;
+	background-color: #1c1c1c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#footer p {
+	font-size: 13px;
+    word-spacing: 2px;
+	margin: 0;
+}
 /* footer end */
