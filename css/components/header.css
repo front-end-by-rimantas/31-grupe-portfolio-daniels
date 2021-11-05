@@ -1,0 +1,170 @@
+.hello {
+	font-size: 52px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.social-icon {
+	display: flex;
+	flex-direction: row;
+}
+
+.icon-item {
+	padding-top: 3.5px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background: #000;
+	opacity: .60;
+	color: white;
+	z-index: 2;
+}
+
+.home-header {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	background-image: url('http://www.innovationplans.com/idesign/daniels/img/bg.jpg');
+	background-position: 0px 0px;
+}
+
+.home-header:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	opacity: .65;
+}
+
+.active-text {
+	margin-bottom: 35px;
+}
+
+.home-text {
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: white;
+	z-index: 1;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 48px;
+	z-index: 99;
+	width: 100vw;
+}
+
+.hamburger {
+	display: none;
+	z-index: 2;
+}
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	margin-left: 5rem;
+}
+
+.nav-link {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: white;
+	z-index: 1;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.nav-logo {
+	display: flex;
+	justify-content: center;
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: white;
+	padding: 10px 0;
+}
+
+.nav-logo:hover {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-menu {
+		display: flex;
+		position: fixed;
+		left: -100%;
+		top: 11rem;
+		flex-direction: column;
+		background-color: white;
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+		transition: 0.3s;
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-evenly;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.nav-link {
+		color: black;
+	}
+	.nav-menu.active {
+		left: 0;
+	}
+	.nav-item {
+		margin: 40px 0;
+	}
+	.hamburger {
+		display: block;
+		cursor: pointer;
+		z-index: 1;
+		color: white;
+	}
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1) {
+		-webkit-transform: translateY(8px) rotate(45deg);
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3) {
+		-webkit-transform: translateY(-8px) rotate(-45deg);
+		transform: translateY(-8px) rotate(-45deg);
+	}
+}
