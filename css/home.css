@@ -52,17 +52,22 @@
 }
 
 .about-container .about-me-skills h6 {
-	margin-top: 7px;
-    margin-bottom: 7px;
+	margin-top: 3px;
+    margin-bottom: 3px;
 }
 
-/* .about-container .about-me-skills .span::after {
-	content: attr(data-value);
-	color: #fff;
-	top: 6px;
-	font-size: 11px;
+.contact-me-btn {
+	background-color: #fff;
+	color: black;
+}
 
-} */
+.contact-me-btn:hover {
+	background-color: black;
+	color: #fff;
+}
+
+
+
 
 
 .about-me-section {
