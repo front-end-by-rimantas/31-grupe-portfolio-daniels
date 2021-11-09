@@ -1,10 +1,7 @@
-/* base */
-
 @import './base/base.css';
 @import './base/layout.css';
 @import './base/reset.css';
 @import './base/variables.css';
-@import './base/font.css';
 /* 3rd-party */
 
 /* @import './3rd-party/font-awesome.min.css'; */
@@ -30,16 +27,16 @@
 /* services start */
 
 .services-container {
-	background-color: #f4f4f4;
+	background-color: #fff;
 	padding: 60px 0;
 }
 
-#services .services-card {
+.services-card {
 	border-radius: 10px;
 	padding: 20px;
 }
 
-#services .service-item {
+.service-item {
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 10px;
@@ -49,7 +46,36 @@
 /* services end */
 
 /* portfolio start */
+#portfolio {
+	background-color: #fff;
+	padding: 70px 0 80px;
+}
 
+#portfolio h2 {
+	margin-bottom: 80px;
+}
+
+#portfolio-filtering {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#portfolio-filtering div {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 15px;
+}
+
+#portfolio img {
+	width: 100%;
+	height: auto;
+}
+
+#portfolio .portfolio-card {
+	padding: 20px;
+}
 /* portfolio end */
 
 /* testimonials start */
@@ -57,6 +83,22 @@
 /* testimonials end */
 
 /* achievements with counters start */
+
+.achievements-container {
+	padding: 70px 0;
+}
+
+.achievements-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.achievements-container p {
+	font-weight: 600;
+	padding-top: 10px;
+}
 
 .achievements-container {
 	padding: 70px 0;
@@ -90,7 +132,7 @@
 
 /* blog start */
 
-.section-title {
+section-title {
 	margin-top: 40px;
 }
 
@@ -169,6 +211,10 @@ a:hover {
 	padding: 50px 0;
 }
 
+#contact form {
+	padding: 50px 0;
+}
+
 #contact .contact-card {
 	display: flex;
 	flex-direction: column;
@@ -179,10 +225,6 @@ a:hover {
 	font-weight: 600;
 	font-size: 16px;
 	margin-bottom: 10px;
-}
-
-#contact form {
-	padding: 50px 0;
 }
 
 #contact form .input-row {
@@ -222,7 +264,6 @@ a:hover {
 /* contact us end */
 
 /* footer start */
-
 #footer {
 	height: 80px;
 	background-color: #1c1c1c;
@@ -236,5 +277,4 @@ a:hover {
 	word-spacing: 2px;
 	margin: 0;
 }
-
 /* footer end */
