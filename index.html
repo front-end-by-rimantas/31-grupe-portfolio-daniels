@@ -119,59 +119,36 @@
   <!-- header end -->
 
   <!-- about me + skills start -->
-  <div id="about" class="about-container">
-    <div class="row about-me-section">
+  <div id="about" class="container">
+    <!-- hero img start -->
+    <div class="col-sm-12 col-md-4 about-me-left-side-img">
+      <!-- visas fotkes aprasymas tures vykti su css, fotke padeta img folderyje -->
+    </div>
+    <!-- hero img end -->
 
-      <!-- hero img start -->
-      <div class="col-sm-12 col-md-4 about-me-left-side-img">
-        <img src="img/hero.jpg" alt="hero-photo">
+    <!-- about-me-right-side start -->
+    <div class="col-sm-12 col-md-4 about-me-right-side">
+      <h2>About me</h2>
+      <span>UI / UX DESIGNER & WEB DEVELOPER</span>
+      <p>
+        I am <span>Jerry Daniels</span> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Quaerat, blanditiis provident, quos
+        consectetur vero, commodi molestiae exercitationem quae minima
+        distinctio illum ut porro quisquam! Possimus nostrum maiores rem
+        tenetur? Eum?
+      </p>
+      <!-- about-me-right-side end -->
+
+      <!-- skills start -->
+      <div class="about-me-skills"></div>
+      <!-- skills end -->
+
+      <!-- about me buttons start -->
+      <div class="about-me-buttons">
+        <button class="download-cv-btn">Download C.V</button>
+        <button class="contact-me-btn">Contact Me</button>
       </div>
-      <!-- hero img end -->
-
-      <!-- about-me-right-side start -->
-      <div class="col-sm-12 col-md-4 about-me-right-side">
-        <h2>About me.</h2>
-        <span>ui / ux designer & web developer</span>
-        <p>
-          I am <span>Jerry Daniels</span> Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Quaerat, blanditiis provident, quos
-          consectetur vero, commodi molestiae exercitationem quae minima
-          distinctio illum ut porro quisquam! Possimus nostrum maiores rem
-          tenetur? Eum?
-        </p>
-        <!-- about-me-right-side end -->
-
-        <!-- skills start -->
-        <div class="about-me-skills">
-          <div class="item">
-            <div class="skills-progress">
-              <h6>Web Design</h6>
-              <span data-value="66%" style="width: 63%;"></span>
-            </div>
-          </div>
-          <div class="item">
-            <div class="skills-progress">
-              <h6>Branding</h6>
-              <span data-value="80%" style="width: 80%;"></span>
-            </div>
-          </div>
-          <div class="item">
-            <div class="skills-progress">
-              <h6>Development</h6>
-              <span data-value="90%" style="width: 90%;"></span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- skills end -->
-
-        <!-- about me buttons start -->
-        <div class="about-me-buttons">
-          <button class="download-cv-btn">Download C.V</button>
-          <button class="contact-me-btn">Contact Me</button>
-        </div>
-        <!-- about me buttons end -->
-      </div>
+      <!-- about me buttons end -->
     </div>
   </div>
   <!-- about me + skills end -->
@@ -280,18 +257,42 @@
   <!-- services end -->
 
   <!-- portfolio start -->
-  <div id="portfolio" class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4" style="height: 200px;background-color: rgb(233, 148, 183);">
-        portfolio</div>
-      <div class="col-xs-12 col-sm-6 col-md-4" style="height: 200px;background-color: rgb(235, 74, 74)"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4" style="height: 200px;background-color: rgb(219, 24, 40);"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4" style="height: 200px;background-color: rgb(184, 58, 65)"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4" style="height: 200px;background-color: rgb(221, 97, 128);"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4" style="height: 200px;background-color: rgb(189, 98, 128)"></div>
+  <div id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Portfolio.</h2>
+                <div id="portfolio-filtering">
+                    <div>All</div>
+                    <div>Brand</div>
+                    <div>Design</div>
+                    <div>Graphic</div>
+                </div>
+            </div>
+            <div>
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-card">
+                    <img src="./assets/portfolio-1.jpg" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-card">
+                    <img src="./assets/portfolio-2.jpg" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-card">
+                    <img src="./assets/portfolio-3.jpg" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-card">
+                    <img src="./assets/portfolio-4.jpg" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-card">
+                    <img src="./assets/portfolio-5.jpg" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-card">
+                    <img src="./assets/portfolio-6.jpg" alt="Image">
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <!-- portfolio end -->
+</div>
+<!-- portfolio end -->
 
   <!-- testimonials start -->
   <div id="testimonials" class="container">
@@ -408,15 +409,15 @@
 
     </div>
   </div>
-  <!-- blog end -->
+    <!-- blog end -->
 
   <!-- contact us start-->
   <div id="contact" class="contact-container">
     <div class="container">
-      <div class="section-title row">
-        <h2>Contact Us.</h2>
-      </div>
       <div class="row">
+        <div class="section-title">
+          <h2>Contact Us.</h2>
+        </div>
         <div class="col-sm-12 col-md-4 contact-card">
           <div class="icons">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-send-fill"
@@ -450,17 +451,17 @@
           <span class="contact-item-title">Phone</span>
           <p>+20 010 2517 8918</p>
         </div>
+        <form>
+          <div class="input-row">
+            <input placeholder="Name">
+            <input type="email" placeholder="Email">
+          </div>
+          <textarea placeholder="Message" rows=8></textarea>
+          <div>
+            <button type="button">Submit</button>
+          </div>
+        </form>
       </div>
-      <form class="col-12 row">
-        <div class="input-row">
-          <input placeholder="Name">
-          <input type="email" placeholder="Email">
-        </div>
-        <textarea placeholder="Message" rows=8></textarea>
-        <div>
-          <button type="button">Submit</button>
-        </div>
-      </form>
     </div>
   </div>
   <!-- contact us end-->

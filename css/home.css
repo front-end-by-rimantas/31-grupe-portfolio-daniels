@@ -4,7 +4,6 @@
 @import './base/layout.css';
 @import './base/reset.css';
 @import './base/variables.css';
-@import './base/font.css';
 /* 3rd-party */
 
 /* @import './3rd-party/font-awesome.min.css'; */
@@ -24,93 +23,22 @@
 /* hero end */
 
 /* about me + skills start */
-.about-container {
-	padding-top: 100px;
-    padding-bottom: 70px;
-}
 
-.about-container .about-me-skills {
-	margin-top: 20px;
-    margin-bottom: 50px;
-    width: 100%;
-}
-
-.about-container .about-me-skills h6 {
-	margin-top: 3px;
-	margin-bottom: 3px;
-}
-
-.about-container .about-me-skills .span {
-	width: 21%;
-}
-
-.about-container .item {
-	border: 1px solid black;
-	margin-bottom: 15px;
-	border-radius: 10px;
-	background-color: black;
-	color: white;
-}
-
-.about-container .skills-progress {
-	width: 100%;
-    padding: 5px 10px;
-}
-
-.about-me-section {
-	align-items: flex-start;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.about-me-right-side {
-	align-items: start;
-	display: flex;
-	flex-direction: column;
-}
-
-.about-me-right-side > span {
-	color: #999;
-	letter-spacing: 3px;
-	margin-bottom: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.about-container .about-me-section .about-me-right-side p {
-	font-size: 15px;
-	line-height: 1.6;
-	text-align: start;
-}
-
-.about-container .about-me-section .about-me-right-side p span {
-	font-weight: 600;
-}
-
-.contact-me-btn {
-	background-color: #fff;
-    color: black;
-}
-
-.contact-me-btn:hover {
-	background-color: black;
-    color: #fff;
-}
 /* about me + skills end */
 
 /* services start */
+
 .services-container {
-    background-color: #f4f4f4;
+    background-color: #fff;
     padding: 60px 0;
 }
 
-#services .services-card {
+.services-card {
     border-radius: 10px;
     padding: 20px;
 }
 
-#services .service-item {
+.service-item {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -120,6 +48,37 @@
 /* services end */
 
 /* portfolio start */
+
+#portfolio {
+    background-color: #fff;
+    padding: 70px 0 80px;
+}
+
+#portfolio h2 {
+    margin-bottom: 80px;
+}
+
+#portfolio-filtering {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-filtering div {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 15px;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio .portfolio-card {
+    padding: 20px;
+}
 
 /* portfolio end */
 
@@ -133,34 +92,50 @@
     padding: 70px 0;
 }
 
-#achievements .count-number {
-    font-weight: 900;
-    font-size: 28px;
-    margin-bottom: 10px auto;
-}
-
-#achievements .achievments-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#achievements .achievements-icons {
+.achievements-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px auto;
 }
 
-#achievements .achievements-container p {
+.achievements-container p {
     font-weight: 600;
     padding-top: 10px;
+}
+
+.achievements-container {
+	padding: 70px 0;
+}
+
+#achievements .count-number {
+	font-weight: 900;
+	font-size: 28px;
+	margin-bottom: 10px auto;
+}
+
+#achievements .achievments-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#achievements .achievements-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+}
+
+#achievements .achievements-container p {
+	font-weight: 600;
+	padding-top: 10px;
 }
 
 /* achievements with counters end */
 
 /* blog start */
-.section-title {
+section-title {
     margin-top: 40px;
 }
 
@@ -230,8 +205,6 @@ a:hover {
     width: 35%;
     border: black;
   }
-  
-  
 /* blog end */
 
 /* contact us start */
@@ -240,22 +213,20 @@ a:hover {
     padding: 50px 0;
 }
 
-#contact .contact-card {
+#contact form {
+    padding: 50px 0;
+}
+#contact .contact-card{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #contact .contact-item-title {
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
-
-#contact form {
-    padding: 50px 0;
-}
-
 #contact form .input-row {
     display: flex;
     flex-direction: row;
@@ -280,8 +251,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
-#contact form input:not([type='submit']),
-#contact form textarea {
+#contact form input:not([type='submit']), #contact form textarea {
     background: #f4f4f4;
     padding: 12px;
     color: #ccc;
@@ -296,3 +266,5 @@ a:hover {
 /* footer start */
 
 /* footer end */
+
+
